@@ -25,9 +25,11 @@ This project is a Node.js backend service for the Worko platform, helping job se
     npm test
    
 **API Endpoints**
-    GET /api/worko/user - List users
-    GET /api/worko/user/:userId - Get user details
-    POST /api/worko/user - Create user
-    PUT /api/worko/user/:userId - Update user
-    PATCH /api/worko/user/:userId - Partially update user
-    DELETE /api/worko/user/:userId - Soft delete user
+   * GET /api/worko/user - List users
+   * GET /api/worko/user/:userId - Get user details
+   * POST /api/worko/user - Create user
+   * PUT /api/worko/user/:userId - Update user
+   * PATCH /api/worko/user/:userId - Partially update user
+   * DELETE /api/worko/user/:userId - Soft delete user
+
+This setup covers the basic requirements outlined in the assignment.
